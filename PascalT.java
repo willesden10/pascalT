@@ -8,9 +8,15 @@ public class PascalT{
 
             //Print the offset for each row
             for(int i=0; i < rows - row; i++){
-                //TODO: Replace 0 with a blank space
-                System.out.print("0");
+                System.out.print(" ");
             }
+
+            //Prints 1s in each line to check that ge get a triangle
+            for(int i=0; i<row; i++){
+                System.out.print("1 ");
+            }
+
+            //Change or line.
             System.out.println();
         }
     }
